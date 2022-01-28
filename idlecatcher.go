@@ -20,7 +20,7 @@ const (
 	// the CPU usage THRESHOLD under which a machine is considered idle
 	THRESHOLD = 0.1
 	// defines how often the CPU stats are polled
-	INTERVAL = 2
+	INTERVAL = 30
 	// defines number of idle intervals before the machine is shut down
 	MAXIDLE = 15
 )
