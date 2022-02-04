@@ -38,7 +38,7 @@ func getCPUSample() (idle, total uint64) {
 	for _, line := range lines {
 		fields := strings.Fields(line)
 		if fields[0] == "cpu" {
-			//ith the following columns:
+			//with the following columns:
 			// - 'cpu'
 			// - normal processes executing in the user mode
 			// - niced processes executing in user mode
